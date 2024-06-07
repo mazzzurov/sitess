@@ -1,0 +1,116 @@
+body {
+    align-items: center;
+    justify-content: center;
+    font-family: 'Avantgarde', 'TeX Gyre Adventor', 'URW Gothic L', sans-serif;
+}
+
+header {
+    background-color: black;
+    height: 100px;
+}
+
+.headimg {
+    position: absolute;
+    top: 3%;
+    margin-left: 20px;
+}
+
+main {
+    text-align: center
+}
+
+.q {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+h1 {
+    background-image: linear-gradient(to bottom right, rgb(109, 63, 165), rgb(240, 240, 61));
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+button {
+    background-color: white;
+    border-radius: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.bigknopki_left {
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(157, 220, 157);
+}
+
+.sknopki_left {
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(157, 220, 157);
+}
+
+.bigknopki_right {
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(228, 138, 126);
+}
+
+.sknopki_right {
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(228, 138, 126);
+}
+
+.knopki {
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(110, 114, 116)
+}
+
+.bigknopki_left:hover {
+    background-color: rgb(157, 220, 157);
+}
+
+.sknopki_left:hover {
+    background-color: rgb(157, 220, 157);
+}
+
+.knopki:hover {
+    background-color: rgb(110, 114, 116);
+}
+
+.sknopki_right:hover {
+    background-color: rgb(228, 138, 126);
+}
+
+.bigknopki_right:hover {
+    background-color: rgb(228, 138, 126);
+}
+
+.sogl {
+    font-size: 15px;
+    margin-left: 200px;
+    color: rgb(157, 220, 157);
+}
+
+.nesogl {
+    font-size: 15px;
+    margin-left: 205px;
+    color: rgb(228, 138, 126);
+}
+
+.soglnesogl {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.questions {
+    background-color: rgb(231, 234, 237);
+    border-radius: 15px;
+    width: 750px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
